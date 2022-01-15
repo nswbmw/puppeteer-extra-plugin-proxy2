@@ -1,0 +1,31 @@
+{
+  "name": "puppeteer-extra-plugin-proxy2",
+  "version": "1.0.0",
+  "description": "Add proxy for puppeteer `page`, support `http`, `https`, `socks`. Based on [puppeteer-page-proxy](https://github.com/Cuadrix/puppeteer-page-proxy).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nswbmw",
+  "license": "MIT",
+  "keywords": [
+    "puppeteer",
+    "puppeteer-extra",
+    "puppeteer-extra-plugin",
+    "puppeteer-extra-plugin-proxy",
+    "proxy",
+    "socks",
+    "sock5"
+  ],
+  "dependencies": {
+    "puppeteer-extra-plugin": "3.2.0",
+    "puppeteer-page-proxy": "1.2.8"
+  },
+  "devDependencies": {
+    "puppeteer-extra": "3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/puppeteer-extra-plugin-proxy2"
+  }
+}
